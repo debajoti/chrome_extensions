@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "QuoteX",
+  "version": "1.0",
+  "description": "Get a daily dose of inspiration.",
+  "icons" : {
+        "16" : "images/icons8-quote-windows-11-color-16.png",
+        "32" : "images/icons8-quote-windows-11-color-32.png",
+        "48" : "images/icons8-quote-48.png",
+        "96" : "images/icons8-quote-windows-11-color-96.png"
+  },
+  "host_permissions": ["https://zenquotes.io/"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
